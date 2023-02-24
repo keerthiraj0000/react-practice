@@ -1,0 +1,27 @@
+h1{
+background-color: brown;
+
+}
+h1:hover{
+    background-color: blueviolet;
+color: darkgreen;
+text-shadow: 5px 10px  red;
+
+}
+
+.a{
+    height: 300px;
+    width: 300px;
+   border: 1px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,red ,blue,green);
+}
+.a:hover{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-radius: 50%;
+    background-image:conic-gradient(red,yellow,black);
+    
+    
+}

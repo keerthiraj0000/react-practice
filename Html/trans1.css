@@ -1,0 +1,29 @@
+.aa{
+    height: 300px;
+    width: 300px;
+    background-color: orangered;
+    transition: 2s height,4s width;
+}
+.aa:hover{
+    height: 400px;
+    width: 400px;
+
+}
+.bb{
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    transition: 2s heigth,4s width ,transform 3s;
+
+}
+.bb:hover{
+    height: 500px;
+    width: 400px;
+    transform: rotate(360deg);
+    animation: abc 2s infinite;
+}
+@keyframes abc
+{
+    50%{background-color: black;}
+    100%{background-color: crimson;}
+}

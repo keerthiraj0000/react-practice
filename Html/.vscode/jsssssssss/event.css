@@ -1,0 +1,45 @@
+h1{
+    background-color: rgba(255, 0, 0, 0.762);
+    font-size: 100px;
+    font-style: italic;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.821);
+}
+    
+#dd{
+    padding-top: 7%;
+    height: 100%;
+    width: 100%;
+    justify-content:  space-evenly;
+    display: flex;
+}
+img{
+   height: 1000px;
+   width: 1000px;
+   padding-bottom: 3%;
+}
+#aa{
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+input{
+    height: 100px;
+    width: 1000px;
+    font-size: 100px;
+}
+ #bb{
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+button{
+    height: 100px;
+    width: 1000px;
+    font-size: 100px;
+}
