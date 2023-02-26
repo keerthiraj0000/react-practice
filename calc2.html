@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="main">
+        <div id="heading">
+            <p>Personal calci</p>
+        </div>
+            <div id="calsi">
+                <div id="outputDiv">
+                    <div>
+                        <input type="text" id="output">
+                    </div>
+                    <div>
+                        <button class="c" onclick="clearScreen()">C</button>
+                    </div>
+                </div>
+                <div id="inputvalue">
+                    <button id="number" onclick="show('7')">7</button>
+                    <button id="number" onclick="show('8')">8</button>
+                    <button id="number" onclick="show('9')">9</button>
+                    <button id="operator" onclick="show('/')">/</button>
+                    <button id="number" onclick="show('4')">4</button>
+                    <button id="number" onclick="show('5')">5</button>
+                    <button id="number" onclick="show('6')">6</button>
+                    <button id="operator" onclick="show('')">*</button>
+                    <button id="number" onclick="show('1')">1</button>
+                    <button id="number" onclick="show('2')">2</button>
+                    <button id="number" onclick="show('3')">3</button>
+                    <button id="operator" onclick="show('-')">-</button>
+                    <button id="number" onclick="show('0')">0</button>
+                    <button id="number" onclick="show('.')">.</button>
+                    <button id="equal" onclick="solution()">=</button>
+                    <button id="operator" onclick="show('+')">+</button>
+                </div>
+
+            </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
